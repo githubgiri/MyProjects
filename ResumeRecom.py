@@ -1,5 +1,11 @@
-#Code to match a JD and pull out matching profiles basedonamndatory skillset, 
-#additional skills and years of experience
+#Use Case: There is a need for manual entry of the candidate details everytime a user signs up with a job portal. 
+# The recommendation  for a recruiter is based on this.
+# Aiming to avoid the manual work by the job seeker and to recommend the right profiles to recruiters, 
+# the below code iterates through resumes and pulls thebest matching profiles.
+
+
+#Code to match a JD and pull out matching profiles based on :
+#mandatory skillsets, additional skills and years of experience
 
 import nltk
 import io
